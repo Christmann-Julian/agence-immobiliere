@@ -2,15 +2,145 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.imgTop-vip{
+  position: absolute;
+  top: 10px;
+  left: 5px;
 }
 
-* {
-  box-sizing: border-box;
+.price-vip{
+  position: absolute;
+  bottom: 5px;
+  left: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.vedette-vip{
+  background-color: #00695c;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 10px;
+  font-weight: bolder;
+  border: 0;
+  margin-right: 5px;
+}
+
+.exclu-vip{
+  border: 0;
+  background-color: #ff0000;
+  color: #fff;
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-size: 10px;
+}
+
+.imgTranslate{
+  transform: translateY(100px);
+}
+
+.colapse{
+  background-color: #e5e5e5;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.colapse-icon{
+  padding: 5px;
+}
+
+.activated{
+  font-weight: bold;
+  pointer-events: none;
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+.paginateCenter{
+  margin: 0 auto;
+}
+
+.custom-paginate{
+  display: flex;
+  list-style: none;
+  height: 40px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  width: fit-content;
+  align-items: center;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.paginate{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.globalImg {
+  width: 100%;
+  height: auto;
+}
+
+.globalButton{
+  border-radius: 20px;
+  background-color: #00695c;
+  border: none;
+  color: #fff;
+  padding: 10px 40px;
+  font-size: 13px;
+}
+
+.firstCol{
+  padding-right: 1px;
+}
+
+.secondCol{
+  padding-left: 1px;
+}
+
+.container-searchFilter{
+  margin-top: 30px;
+}
+
+.form-field{
+  background-color: #f5f5f5;
+}
+
+.container-contact{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px){
+  .globalImg{
+    height: 250px;
+  }
+
+  .paginateCenter{
+    width: 35%;
+  }
+
+  .carousel-main{
+    height: 500px;
+  }
+  
+  .carouselItem{
+    transform: translate(0%, -30%);
+  }
+
+  .container-searchFilter{
+    width: 50%;
+    margin: 30px auto 0 auto;
+  }
+
+  .custom-color{
+    background-color: #fff;
+  }
 }
