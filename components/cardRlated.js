@@ -24,7 +24,6 @@ export const CardRelated = ({properties}) => {
                             </div>
                             <p><small>{property.city}, Monde</small></p>
                         </MDBCardFooter>
-                        <p>{JSON.stringify(property.slug)}</p>
                     </MDBCard>
                 </MDBCol>
             ))
